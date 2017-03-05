@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.square {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #4CAF50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face {
+  width: 144px;
+  height: 144px;
+  border-radius: 72px;
+  background: #795548;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+  transition: 0.2s all ease-out;
+}
+.face:hover{
+  width: 152px;
+  height: 152px;
+  border-radius: 76px;
+}
+
+.eyes {    
+  display: flex;
+  position: relative;
+  bottom: 12px;
+}
+
+.eyes > .circle {
+  width: 64px;
+  height: 64px;
+  border: 1px solid black;
+  border-radius: 32px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.retina {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  background: black;
+}
+
+.nose {
+  position: relative;
+  top: -10px;
+  border-top: 20px solid black;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-radius: 20px;
+}
+
+.ear {
+  width: 96px;
+  height: 96px;
+  border: 1px solid black;
+  border-radius: 48px;
+  background: #795548;
+  position: relative;
+  bottom: 50px;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ear.right-ear {
+  right: 50px;
+}
+
+.ear.left-ear {
+  left: 50px;
+}
+
+.left-ear .circle,
+.right-ear .circle {
+  background: #BCAA99;
+  width: 70px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 35px;
+}
+
+.mouth {
+  width: 6px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 6px solid black;
+}
