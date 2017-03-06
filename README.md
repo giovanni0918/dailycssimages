@@ -4,6 +4,7 @@ I'm taking the Daily CSS Images Challenge 💈📷 Join me → http://dailycssim
 ## Demo links
 1. [Bear Cub](https://giovanni-orlando.com/dailycssimages/01-bear-cub/)
 2. [Elephant](https://giovanni-orlando.com/dailycssimages/02-elephant/)
+3. [Beaver](https://giovanni-orlando.com/dailycssimages/03-beaver/)
 
 ## License
 Mit: <https://mit-license.org/>
