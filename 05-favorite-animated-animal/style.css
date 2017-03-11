@@ -1,0 +1,165 @@
+:root {
+  --ocean-blue: #001f3f;
+  --dory-blue: #0074D9;
+  --dory-yellow: #FFDC00;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: var(--ocean-blue);
+}
+
+.flex-vertically {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-horizontally {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+blockquote {
+  width: 80%; 
+  margin: 0 0 4rem 0; 
+  color:white; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 2rem; 
+  text-align: center;
+}
+.ocean {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.body {
+  width: 12rem;
+  height: 8rem;
+  border: 3px solid black;
+  background-color: var(--dory-blue);
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 4rem;
+  border-bottom-right-radius: 6rem;
+  border-bottom-left-radius: 4rem;
+}
+
+.face {
+  padding-right: 0.875rem;
+}
+
+.eye {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 0.25rem;
+  border: 0.125rem solid black;
+  border-radius: 1.5rem;
+  background-color: white;
+}
+
+.retina {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.25rem;
+  border-radius: 0.75rem;
+  border: 0.25rem solid #611c41;
+  background-color: black;
+}
+
+.fin {
+  width: 5.5rem;
+  height: 3rem;
+  margin-right: 1rem;
+  background-color: var(--dory-yellow);
+}
+
+.fin.fin--left {
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 6px solid black;
+  border-left: 6px solid black;
+  border-top-right-radius: 0;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 4rem;
+  border-bottom-left-radius: 2rem;
+  transition: 0.5s transform ease-in-out;
+  transform: rotate(0deg);
+  animation: swimming 0.6s;
+  animation-iteration-count: 10;
+  -webkit-animation: swimming 0.6s;
+  -webkit-animation-iteration-count: 10;
+}
+
+.fin:hover {
+  transform: rotate(-10deg);
+}
+
+@-webkit-keyframes swimming {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes swimming {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.mouth {
+  width: 3rem;
+  height: 1.5rem;
+  margin-top: 1.5rem;
+  background-color: black;
+  border: 0.125rem solid black;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.tongue {
+  width: 80%;
+  height: 80%;
+  background-color: pink;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.tail-wrapper {
+  position: relative;
+  bottom: 3rem;
+  right: .125rem;
+  border-top: 0.5em solid transparent;
+  border-bottom: 0.5em solid transparent;
+  border-right: 0.5em solid black;
+  transform: rotate(-10deg)
+}
+
+.tail {
+  width: 0;
+  height: 0;
+  border-top: 2rem solid transparent;
+  border-bottom: 2rem solid transparent;
+  border-right: 2rem solid var(--dory-yellow);
+}
