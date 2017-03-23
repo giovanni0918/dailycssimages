@@ -8,6 +8,7 @@ I'm taking the Daily CSS Images Challenge 💈📷 Join me → http://dailycssim
 4. [Tiger](https://giovanni-orlando.com/dailycssimages/04-tiger/)
 5. [Favorite Animated Animal (Dory)](https://giovanni-orlando.com/dailycssimages/05-favorite-animated-animal/)
 6. [Clock](https://giovanni-orlando.com/dailycssimages/06-clock/)
+7. [Ruler](https://giovanni-orlando.com/dailycssimages/07-ruler/)
 
 
 ## License
