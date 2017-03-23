@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>06 - Clock</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Giovanni Orlando Rivera">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#bada55">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="clock flex-vertically">
+        <h1>CSS Clock</h1>
+        <!--end heading level 1-->
+
+        <div class="clock__outer-shell flex-vertically">
+            <div class="marker marker--1-7"></div>
+            <div class="marker marker--2-8"></div>
+            <div class="marker marker--4-10"></div>
+            <div class="marker marker--5-11"></div>
+            <!--end markers-->
+
+            <div class="clock__inner-shell flex-vertically">
+                <div class="clock__axis"></div>
+                <div class="hand hour"></div>
+                <div class="hand minute"></div>
+                <div class="hand second"></div>
+            </div>
+            <!--end clock__inner-shell -->
+
+        </div>
+        <!--end clock__outer-shell -->
+
+        <time></time>
+        <!--end time-->
+    </div>
+
+    <script defer>
+        (function (window, document, undefined) {
+            'use strict';
+
+            class Clock {
+                constructor() {
+                    this.secondHand = document.querySelector('.hand.second');
+                    this.minsHand = document.querySelector('.hand.minute');
+                    this.hourHand = document.querySelector('.hand.hour');
+                    this.setTime = this.setTime.bind(this);
+                    setInterval(this.setTime, 1000);
+                }
+                setTime() {
+                    const now = new Date();
+
+                    const seconds = now.getSeconds();
+                    const secondsDegrees = ((seconds / 60) * 360) + 90;
+                    this.secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+
+                    const mins = now.getMinutes();
+                    const minsDegrees = ((mins / 60) * 360) + 90;
+                    this.minsHand.style.transform = `rotate(${minsDegrees}deg)`;
+
+                    const hour = now.getHours();
+                    const hourDegrees = ((hour / 12) * 360) + 90;
+                    this.hourHand.style.transform = `rotate(${hourDegrees}deg)`;
+                    document.querySelector('time').innerHTML = now.toISOString().substring(11, 19);
+                }
+            }
+            new Clock();
+        }(window, document));
+
+    </script>
+
+</body>
+
+</html>
