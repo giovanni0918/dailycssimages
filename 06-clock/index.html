@@ -64,7 +64,7 @@
                     const hour = now.getHours();
                     const hourDegrees = ((hour / 12) * 360) + 90;
                     this.hourHand.style.transform = `rotate(${hourDegrees}deg)`;
-                    document.querySelector('time').innerHTML = now.toISOString().substring(11, 19);
+                    document.querySelector('time').textContent = `${hour}:${mins}:${seconds}`;
                 }
             }
             new Clock();
