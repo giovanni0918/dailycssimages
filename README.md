@@ -9,6 +9,7 @@ I'm taking the Daily CSS Images Challenge 💈📷 Join me → http://dailycssim
 5. [Favorite Animated Animal (Dory)](https://giovanni-orlando.com/dailycssimages/05-favorite-animated-animal/)
 6. [Clock](https://giovanni-orlando.com/dailycssimages/06-clock/)
 7. [Ruler](https://giovanni-orlando.com/dailycssimages/07-ruler/)
+8. [Notepad](https://giovanni-orlando.com/dailycssimages/08-notepad/)
 
 
 ## License
