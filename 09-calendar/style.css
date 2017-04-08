@@ -42,63 +42,45 @@ h1 {
   height: 8rem;
   margin-right: 0.5rem;
   border-radius: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  background: white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+  background-color: white;
 }
 
 .apple-calendar-icon .weekday {
-  position: relative;
-  bottom: 2.75em;
+  color: red;
+  font-size: 1rem;
 }
 
 .apple-calendar-icon .day {
-  position: absolute;
+  font-size: 5rem;
 }
 
 .google-calendar-icon {
   width: 8rem;
-  height: 8rem;
+  height: 7rem;
   margin-left: 0.5rem;
+  border-top: 1rem solid #d4d4d4;
   border-radius: 1rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+  z-index: 0;
+  background-color: #d4d4d4;
 }
 
-.google-calendar-icon .day {
-  position: absolute;
+.google-calendar-icon .page {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 1rem;
+  background-image: repeating-linear-gradient( 180deg, #3664cf 0%, #3664cf 50%, #4989f4 50%, #4989f4 100%);
+}
+
+.google-calendar-icon p.day {
+  padding-top: 0.125em;
   color: white;
-}
-
-p.weekday {
-  color: red;
-  font-size: 1rem;
+  font-size: 5em;
   text-align: center;
-  padding: 0;
 }
 
-p.day {
+p {
   margin: 0;
   padding: 0;
-  line-height: 1;
-  font-size: 5rem;
-  font-weight: light;
-}
-
-.icon-half {
-  width: 8em;
-  height: 4em;
-  z-index: 0;
-}
-
-.top-half {
-  background-color: #3664cf;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.3);
-  border-top: 0.25rem solid #d4d4d4;
-}
-
-.bottom-half {
-  background-color: #4989f4;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
