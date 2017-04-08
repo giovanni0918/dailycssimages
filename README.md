@@ -10,6 +10,7 @@ I'm taking the Daily CSS Images Challenge 💈📷 Join me → http://dailycssim
 6. [Clock](https://giovanni-orlando.com/dailycssimages/06-clock/)
 7. [Ruler](https://giovanni-orlando.com/dailycssimages/07-ruler/)
 8. [Notepad](https://giovanni-orlando.com/dailycssimages/08-notepad/)
+9. [Calendar](https://giovanni-orlando.com/dailycssimages/09-calendar/)
 
 
 ## License
