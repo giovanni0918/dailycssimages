@@ -1,4 +1,4 @@
-# dailycssimages
+# Daily CSS Images
 I'm taking the Daily CSS Images Challenge 💈📷 Join me → http://dailycssimages.com #dailycssimages
 
 ## Demo links
@@ -12,6 +12,7 @@ I'm taking the Daily CSS Images Challenge 💈📷 Join me → http://dailycssim
 8. [Notepad](https://giovanni-orlando.com/dailycssimages/08-notepad/)
 9. [Calendar](https://giovanni-orlando.com/dailycssimages/09-calendar/)
 10. [Pencil Jar](https://giovanni-orlando.com/dailycssimages/10-pencil-jar/)
+11. [Pizza](https://giovanni-orlando.com/dailycssimages/11-pizza/)
 
 
 ## License
