@@ -22,6 +22,12 @@ body {
   height: 100%;
 }
 
+h1 {
+  margin: 0;
+  position: relative;
+  top: 40px;
+}
+
 .flex-vertically {
   display: flex;
   flex-direction: column;
