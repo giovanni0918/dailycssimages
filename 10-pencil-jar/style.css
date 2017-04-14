@@ -1,0 +1,116 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: dodgerblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.flex-container {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-vertically {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-horizontally {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.pencil-jar-top {
+  width: 260px;
+  height: 40px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: powderblue;
+  opacity: 0.75;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.pencil-jar-holder {
+  width: 240px;
+  height: 320px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: powderblue;
+  opacity: 0.5;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.pencil {
+  margin: 2px;
+}
+
+.pencil .top {
+  width: 16px;
+  height: 16px;
+  border: 2px solid black;
+  background-color: crimson;
+}
+
+.pencil .core {
+  width: 16px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: yellow;
+}
+
+.pencil .tip {
+  border-top: 20px solid antiquewhite;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+.pencil .lead {
+  border-top: 10px solid black;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: relative;
+  bottom: 10px;
+}
+
+.pencil--size-small .core {
+  height: 140px;
+}
+
+.pencil--size-medium .core {
+  height: 180px;
+}
+
+.pencil--size-large .core {
+  height: 200px;
+}
+
+.pencil--size-venti .core {
+  height: 220px;
+}
+
+.pencil--size-small {
+  transform: rotate(-6deg);
+}
+
+.pencil--size-medium {
+  transform: rotate(-3deg);
+}
+
+.pencil--size-venti {
+  transform: rotate(2deg);
+}
