@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: powderblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-vertically {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.shell {
+  width: 280px;
+  height: 140px;
+  margin: 0 auto;
+  background: radial-gradient(black 2%, transparent 4%), goldenrod;
+  background-size: 30px 30px;
+  border: 1px solid black;
+  border-top-left-radius: 140px;
+  border-top-right-radius: 140px;
+  box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.5);
+}
+
+.shell-back {
+  position: relative;
+  top: 130px;
+  border-bottom-right-radius: 6px;
+}
+
+.ingredients {
+  width: 280px;
+  height: 140px;
+  position: relative;
+}
+
+.lettuce {
+  width: 280px;
+  height: 140px;
+  margin: 0 auto;
+  border-top-left-radius: 140px;
+  border-top-right-radius: 140px;
+  box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.5);
+  background: repeating-linear-gradient( 100deg, green 0%, green 10%, lightgreen 10%, lightgreen 15%, orange 15%, orange 20%, white 20%, white 25%, crimson 25%, crimson 35%, yellow 35%, yellow 45%, green 45%, green 55%, lightgreen 55%, lightgreen 60%, orange 60%, orange 65%, white 65%, white 70%, crimson 70%, crimson 80%, yellow 80%, yellow 90%, green 90%, green 100%);
+  position: absolute;
+  top: 0;
+}
+
+.meat {
+  width: 280px;
+  height: 140px;
+  margin: 0 auto;
+  border-top-left-radius: 140px;
+  border-top-right-radius: 140px;
+  box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.5);
+  background-color: saddlebrown;
+  position: absolute;
+  top: 8px;
+}
+
+.shell-front {
+  position: relative;
+  bottom: 120px;
+  border-bottom-right-radius: 6px;
+}

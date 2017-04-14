@@ -14,6 +14,7 @@ I'm taking the Daily CSS Images Challenge 💈📷 Join me → http://dailycssim
 10. [Pencil Jar](https://giovanni-orlando.com/dailycssimages/10-pencil-jar/)
 11. [Pizza](https://giovanni-orlando.com/dailycssimages/11-pizza/)
 12. [Hamburger](https://giovanni-orlando.com/dailycssimages/12-hamburger/)
+13. [Taco](https://giovanni-orlando.com/dailycssimages/13-taco/)
 
 
 ## License
