@@ -49,6 +49,14 @@ body {
   background-image: repeating-linear-gradient( 180deg, crimson 0%, crimson 25%, red 25%, red 50%, crimson 50%, crimson 75%, red 75%, red 100%);
 }
 
+.onion {
+  width: 280px;
+  height: 10px;
+  margin: 0 auto;
+  border: 2px solid black;
+  background-image: repeating-linear-gradient( 180deg, purple 0%, purple 25%, lavender 25%, lavender 50%, purple 50%, purple 75%, lavender 75%, lavender 100%);
+}
+
 .cheese {
   width: 285px;
   height: 8px;

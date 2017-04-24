@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   width: 100%;
@@ -48,6 +52,7 @@ body {
 }
 
 .notepad {
+  margin: 0 auto;
   transform: rotate(-2deg);
 }
 
