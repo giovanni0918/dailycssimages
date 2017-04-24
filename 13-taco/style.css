@@ -56,6 +56,7 @@ h1 {
 .ingredients {
   width: 280px;
   height: 140px;
+  margin: 0 auto;
   position: relative;
 }
 
